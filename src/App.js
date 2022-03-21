@@ -101,13 +101,16 @@ class App extends Component {
           </div>
         </Col>
         <Col mg="2" lg="2" className='brd'>
-          {"brd"}</Col>
+          <a href='https://fakeleghorse.travel.blog/' target="_blank" className='blog'>blog</a></Col>
         <Col mg="8" lg="8" className='hr-centre'>
           <hr className='hr-five'></hr></Col>
       </Row>
     )
   }
   getFouthRowElements = () => {
+    const iFrame = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15585.372473507301!2d79.821204423437!3d12.426843964500986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5319fc59689b47%3A0x9c923c48fdc1fb6b!2sMelmaruvathur%2C%20Tamil%20Nadu%20603319!5e0!3m2!1sen!2sin!4v1647877785245!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`
+
+
     return (
       <Row className='forth-row-container'>
         <Col>{"¡™£∫ç˜µ∂∆©ß˚¥†∑¨¥†´ˆ¨∑´"}</Col>
@@ -115,25 +118,27 @@ class App extends Component {
           <h6>
             mail
           </h6>
-          <label>fakeleghorse@gmail.com</label>
+          <a href = "mailto: fakeleghorse@gmail.com" target="_blank" className='email'>fakeleghorse@gmail.com</a>
         </Col>
         <Col>
           <h6>
             twitter
           </h6>
-          <label>https://twitter.com/fakeleghorse</label>
+          <a className='twitter' href='https://twitter.com/fakeleghorse' target={"_blank"}>https://twitter.com/fakeleghorse</a>
         </Col>
         <Col>
           <h6>
             pappater
           </h6>
-          <label>https://tumblr.com/pappater</label>
+          {/* <label>https://tumblr.com/pappater</label> */}
+          <a className='pappater' href='https://pappater.tumblr.com/' target={"_blank"}>https://pappater.tumblr.com/</a>
+
         </Col>
         <Col>
           <h6>
             map
           </h6>
-          <label>map url</label>
+          <a className='map' href='https://goo.gl/maps/kpfUD1dKaDkNT9xcA' target={"_blank"}>12.426864497650099, 79.83004486209387</a>
         </Col>
       </Row>
 

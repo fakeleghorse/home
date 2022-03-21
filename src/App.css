@@ -163,4 +163,16 @@
 .marquee-content marquee:hover{
     text-decoration: underline;
     cursor: grab;
+} 
+.blog, .email , .twitter, .pappater, .map{
+    text-decoration: none;
+    color: #000;
 }
+.blog:hover, .email:hover , .twitter:hover, .pappater:hover, .map:hover{
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* .email {
+    color: #000;
+} */

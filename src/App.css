@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
+.app-container {
+    padding: 30px;
+    color: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.squares>* {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    margin-right: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.squares {
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.single-square {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.hr-one {
+    height: 8px !important;
+    background: #000;
+    opacity: 100 !important;
+    margin-top: 0 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flh-title {
+    font-size: 150px;
+    border: 20px solid black;
+    text-align: center;
+    margin: 0px 50px;
+    line-height: 139px;
+    font-weight: 700;
+}
+
+.croissant-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.croissant-container div:nth-child(1) {
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 75px;
+}
+
+.croissant-container div:nth-child(2) {
+    /* text-decoration: underline; */
+    font-weight: 800;
+    font-size: 75px;
+}
+
+.croissant-container div:nth-child(3) {
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.croissant-container div:nth-child(4) {
+    margin-bottom: 15px;
+}
+
+.hr-two {
+    height: 1px !important;
+    opacity: 100;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.cc-main {
+    float: right;
+    margin: 60px 75px;
+}
+.flhwithline {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.flhwithline label {
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-left: 22px;
+}
+.hr-three {
+    width: 15%;
+}
+.wrk {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrk div {
+    display: flex;
+    justify-content: end;
+}
+.wrk div span {
+    transform: rotate(270deg);
+    margin-bottom: 33px;
+}
+.hr-four {
+    width: 20%;
+    height: 8px !important;
+    opacity: 100;
+    transform: rotate(133deg);
+    /* padding-right: 18px; */
+    margin-left: -65px;
+    position: relative;
+    bottom: 53px;
+    left: 12px;
+}
+.plusplus {
+    position: relative;
+    top: -45px;
+    right: 50px;
+}
+.middle-content {
+    position: relative;
+    bottom: 58px;
+}
+.dash-colon {
+    font-size: 40px;
+    font-weight: 900;
+}
+.kwasa {
+    font-size: 50px;
+    font-weight: 100;
+}
+.dash-kwasa {
+    line-height: 48px;
+    position: relative;
+    bottom: 40px;
+}
+.brd {
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+}
+.hr-five {
+    width: 33%;
+    height: 8px !important;
+    opacity: 100;
+    display: flex;
+    justify-content: center;
+}
+.hr-centre {
+    display: flex;
+    justify-content: center;
+}
+.forth-row-container {
+    margin-top: 70px;
+}
+.marquee-content marquee:hover{
+    text-decoration: underline;
+    cursor: grab;
 }

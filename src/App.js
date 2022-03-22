@@ -148,7 +148,7 @@ class App extends Component {
   getFifthRowElements = () => {
     return (
       <div style={{ display: 'flex' }} className="marquee-content mb-4 mt-1" >
-        <marquee width="60%" direction="left">
+        <marquee width="60%" direction="left" onClick={()=> window.open("https://github.com/fakeleghorse/", "_blank")}>
           {`design & solutions • ui/ux • music • writing • abstract stuff • and more`}
         </marquee>
         <label>{"| from fakeleghorse ||||||||||||||||||||"}</label>

@@ -162,7 +162,7 @@
 }
 .marquee-content marquee:hover{
     text-decoration: underline;
-    cursor: grab;
+    cursor: pointer;
 } 
 .blog, .email , .twitter, .pappater, .map{
     text-decoration: none;

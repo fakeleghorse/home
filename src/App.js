@@ -20,8 +20,10 @@ class App extends Component {
     return (
       <Fragment>
         <div className='flh-title'>
-          {";F.¬"}<br></br>
-          {"L•h‘"}
+          {/* {";F.¬"}<br></br>
+          {"L•h‘"} */}
+        <div className='star'>*</div>
+        <div className='fff'>f</div> 
         </div>
       </Fragment>
     )
@@ -113,7 +115,7 @@ class App extends Component {
 
     return (
       <Row className='forth-row-container'>
-        <Col>{"¡™£∫ç˜µ∂∆©ß˚¥†∑¨¥†´ˆ¨∑´"}</Col>
+        <Col className='asdf'>{"¡™£∫ç˜µ∂∆©ß˚¥†∑¨¥†´ˆ¨∑´"}</Col>
         <Col>
           <h6>
             mail

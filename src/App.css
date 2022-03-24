@@ -31,11 +31,12 @@
 
 .flh-title {
     font-size: 150px;
-    border: 20px solid black;
+    border: 20px solid #000;
     text-align: center;
     margin: 0px 50px;
     line-height: 139px;
     font-weight: 700;
+    background-color: #cd0000;
 }
 
 .croissant-container {
@@ -47,6 +48,7 @@
     text-decoration: underline;
     font-weight: 800;
     font-size: 75px;
+    
 }
 
 .croissant-container div:nth-child(2) {
@@ -73,6 +75,7 @@
     opacity: 100;
     margin-top: 0px;
     width: 100%;
+    background: #000;
 }
 
 .cc-main {
@@ -91,6 +94,7 @@
 }
 .hr-three {
     width: 15%;
+    background: #000;
 }
 .wrk {
     display: flex;
@@ -115,6 +119,7 @@
     position: relative;
     bottom: 53px;
     left: 12px;
+    background: #000;
 }
 .plusplus {
     position: relative;
@@ -152,6 +157,7 @@
     opacity: 100;
     display: flex;
     justify-content: center;
+    background: #000;
 }
 .hr-centre {
     display: flex;
@@ -162,6 +168,7 @@
 }
 .marquee-content marquee:hover{
     text-decoration: underline;
+    text-decoration-color: #cd0000;
     cursor: pointer;
 } 
 .blog, .email , .twitter, .pappater, .map{
@@ -172,7 +179,24 @@
     color: #000;
     cursor: pointer;
     text-decoration: underline;
+    text-decoration-color: #cd0000;
 }
 /* .email {
     color: #000;
 } */
+.asdf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.star {
+    font-size: 99px;
+    position: relative;
+    right: -50px;
+}
+.fff {
+    font-size: 230px;
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+}

@@ -84,7 +84,7 @@ class App extends Component {
         </Col>
         <Col mg="4" lg="4">
           <p>
-            {`fakeleghorse of poikkaal kuthirai aattam (poi - fake, kaal - leg, Kuthirai – horse) or puravi aattam (tamil:பொய்க்கால் குதிரை ஆட்டம்) is one of the folk dances of tamil nadu. 
+            {`fakeleghorse or poikkaal kuthirai aattam (poi - fake, kaal - leg, Kuthirai – horse) (tamil:பொய்க்கால் குதிரை ஆட்டம்) is one of the folk dances of tamil nadu. 
            it is a type of dance performed with a fake horse having a gap inside so that a person can fit into it to perform the dance.`}
           </p>
         </Col>

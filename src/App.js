@@ -104,7 +104,7 @@ class App extends Component {
         </Col> */}
         <Col mg="2" lg="2" className='brd'>
           <a href='https://fakeleghorse.travel.blog/' target="_blank" className='blog'>//blog</a></Col>
-        <Col mg="8" lg="8" className='hr-centre'>
+        <Col mg="8" lg="8" className='hr-centre d-none d-sm-block' >
           <hr className='hr-five'></hr></Col>
       </Row>
     )
@@ -115,7 +115,7 @@ class App extends Component {
 
     return (
       <Row className='forth-row-container'>
-        <Col className='asdf'>{"||||||"}</Col>
+        <Col className='asdf hidden-xs d-none d-sm-block'>{"||||||"}</Col>
         <Col>
           <h6>
             mail
@@ -149,11 +149,11 @@ class App extends Component {
  
   getFifthRowElements = () => {
     return (
-      <div style={{ display: 'flex' }} className="marquee-content mb-4 mt-1" >
+      <div style={{ display: 'flex' }} className="marquee-content mb-4 mt-4" >
         <marquee width="60%" direction="left" onClick={()=> window.open("https://github.com/fakeleghorse/", "_blank")}>
           {`design & solutions • ui/ux • music • writing • abstract stuff • and more`}
         </marquee>
-        <label>{"| from fakeleghorse ||||||||||||||||||||"}</label>
+        <label>{"| from fakeleghorse"} <span className='d-none d-sm-block'>{"||||||||||||||||||||"}</span></label>
       </div>
 
     )

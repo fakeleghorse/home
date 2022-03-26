@@ -79,7 +79,7 @@ class App extends Component {
           <label className='plusplus'>{"++"}</label>
           <hr className='hr-four'></hr>
           <p className='middle-content'>
-            {"fakeleghorse is a dynamic design provider which delivers solution, design, service and stuff and not belong to any specific fields and also includes arts, music, movies, books, cats, coffee and more other stuff"}
+            {"fakeleghorse is a dynamic design provider delivering solution, design, service and stuff and is not specific to fields. it includes arts, music, movies, books, cats, coffee and more stuff."}
           </p>
         </Col>
         <Col mg="4" lg="4">

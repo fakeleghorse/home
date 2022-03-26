@@ -147,9 +147,12 @@
     font-weight: 500;
     letter-spacing: 4px;
     font-size: 40px;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 80px;
+    /* display: flex;
+    justify-content: flex-end; */
+    /* margin-top: 80px; */
+    position: relative;
+    top: -100px;
+    left: 100px;
 }
 .hr-five {
     width: 33%;
@@ -164,7 +167,10 @@
     justify-content: center;
 }
 .forth-row-container {
-    margin-top: 70px;
+    margin-top: 45px;
+}
+.forth-row-container div h6 {
+    margin: 0;
 }
 .marquee-content marquee:hover{
     text-decoration: underline;

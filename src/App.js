@@ -34,8 +34,8 @@ class App extends Component {
         <div className='croissant-container'>
           <div>0</div>
           <div>3</div>
-          <div>des <br></br>
-            ign
+          <div>flh<br></br>
+            
           </div>
           <div className='single-square'></div>
 
@@ -82,7 +82,7 @@ class App extends Component {
             {"fakeleghorse is a dynamic design provider delivering solution, design, service and stuff and is not specific to fields. it includes arts, music, movies, books, cats, coffee and more stuff."}
           </p>
         </Col>
-        <Col mg="4" lg="4">
+        <Col mg="4" lg="4" className='mt-5'>
           <p>
             {`fakeleghorse or poikkaal kuthirai aattam (poi - fake, kaal - leg, Kuthirai – horse) (tamil:பொய்க்கால் குதிரை ஆட்டம்) is one of the folk dances of tamil nadu. 
            it is a type of dance performed with a fake horse having a gap inside so that a person can fit into it to perform the dance.`}
@@ -94,16 +94,16 @@ class App extends Component {
   getThirdRowElements = () => {
     return (
       <Row>
-        <Col mg="2" lg="2" className='dash-kwasa'>
+        {/* <Col mg="2" lg="2" className='dash-kwasa'>
           <div className='dash-colon'>
             {"_ _ _ _ -. //::"}
           </div>
           <div className='kwasa'>
             {"[kʁwasɑ̃]"}
           </div>
-        </Col>
+        </Col> */}
         <Col mg="2" lg="2" className='brd'>
-          <a href='https://fakeleghorse.travel.blog/' target="_blank" className='blog'>blog</a></Col>
+          <a href='https://fakeleghorse.travel.blog/' target="_blank" className='blog'>//blog</a></Col>
         <Col mg="8" lg="8" className='hr-centre'>
           <hr className='hr-five'></hr></Col>
       </Row>
@@ -115,7 +115,7 @@ class App extends Component {
 
     return (
       <Row className='forth-row-container'>
-        <Col className='asdf'>{"¡™£∫ç˜µ∂∆©ß˚¥†∑¨¥†´ˆ¨∑´"}</Col>
+        <Col className='asdf'>{"||||||"}</Col>
         <Col>
           <h6>
             mail
